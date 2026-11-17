@@ -46,6 +46,18 @@ export const prompts = [
     licao:
       'Apontar a fonte de verdade evita conteúdo genérico: todo o texto do site veio da documentação real do CheckRoom.',
   },
+  {
+    titulo: 'Entrega',
+    texto: 'Cria você o repositório no GitHub.',
+    licao:
+      'A IA não tinha permissão para criar repositórios na conta. Criar o repositório vazio foi um passo humano; depois disso ela enviou o código e ligou o projeto à Vercel.',
+  },
+  {
+    titulo: 'Escolha do tema',
+    texto: 'O site vai ser a página inicial de qual projeto?',
+    licao:
+      'Às vezes é a IA quem pergunta. Responder com a fonte certa (o repositório do PFC) valeu mais do que descrever o projeto de memória.',
+  },
 ]
 
 export const boasPraticas = [
